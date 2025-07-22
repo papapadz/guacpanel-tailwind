@@ -15,4 +15,9 @@ class PageController extends Controller
     {
         return Inertia::render('Terms');
     }
+
+    public function petList()
+    {
+        return Inertia::render('Admin/DCF/Pets/PetList');
+    }
 }

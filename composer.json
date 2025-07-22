@@ -9,13 +9,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "binarybee-solutions/larabee": "@dev",
         "guzzlehttp/guzzle": "^7.2",
         "http-interop/http-factory-guzzle": "^1.2",
         "inertiajs/inertia-laravel": "^2.0",
         "intervention/image": "^2.7",
-        "jenssegers/agent": "^2.6",
         "laravel/fortify": "^1.23",
         "laravel/framework": "^11.0",
+        "laravel/jetstream": "^5.3",
         "laravel/pail": "^1.2",
         "laravel/sanctum": "^4.0",
         "laravel/scout": "^10.12",
@@ -78,12 +79,19 @@
             "php-http/discovery": true
         }
     },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "repositories": [
         {
             "type": "composer",
             "url": "https://satis.spatie.be"
+        },
+        {
+            "type": "path",
+            "url": "D:/Padz/ComposerPackages/LaraBee",
+            "options": {
+                "symlink": true
+            }
         }
-    ],
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    ]
 }
