@@ -45,7 +45,7 @@ return [
 
     'spatie' => [
         'roles' => [
-            'super_admin','admin','super_user','user'
+            'superadmin','admin','superuser','user'
         ],
         'actions' => [
             'add', 'update', 'delete', 'view'
